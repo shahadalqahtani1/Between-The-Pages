@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet' href='cssweb.css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!--Using embedded css to style this page-->
+  <style type="text/css">
+    header {
+      padding: 5px;
+      padding-bottom: 60px;
+      background-color: #f9f9f4;
+    }
+
+    #firstsection {
+      transition: all .2s ease-in-out;
+    }
+
+    #firstsection:hover {
+      transform: scale(1.1);
+    }
+
+    h5 {
+      position: relative;
+      left: 65px;
+      top: 2px;
+    }
+
+    p {
+      color: #6e6e6e;
+    }
+
+    summary {
+      color: #306a69;
+    }
+
+    footer {
+      padding: 5px;
+      background-color: #f7f7e6;
+      position: absolute;
+      top: 1065px;
+      left: 20px;
+      right: 400px;
+    }
+  </style>
+
+  <title>Welcome</title>
+</head>
+
+<!---The Body Starts Here--->
+
+<body>
+
+  <!---Header Section--->
+  <header>
+    <!--Adding the logo and fixing its position-->
+    <h1>
+      <img style="position:relative; top:19px" src="logo3.png" alt="logo" width="70" height="70">
+      Between The Pages
+    </h1>
+    <p>Welcome to Between the Pages local book club in jeddah.</p>
+    <!--Links to other pages-->
+    <nav>
+      <p><b>
+          <a href="joinus.html">Join Us</a> ||
+          <a href="bookstore.html">Bookstore</a>
+        </b></p>
+    </nav>
+  </header>
+
+  <!---Main section--->
+  <main class="container">
+
+    <!---FIRST section
+Adding the figure and the figure caption and
+applying external and internal css--->
+    <section id="firstsection">
+      <img style="border: 10px solid #f9f9f4; border-radius:3px;
+  position: relative; top: -40px;" src="myfigure.png" alt="Bookclub Profile" width="250" height="250">
+      <figcaption style="position:relative; top:-40px"><i>Book Club Profile</i></figcaption>
+    </section>
+
+    <!---SECOND section
+contains two articles one with normal text
+and the other with ordered and unordered lists-->
+    <section id="secondsection">
+
+      <article style="padding-left:50px;">
+        <h2>How The Book Club Started</h2>
+        <p id="secondary">It all started in July 2021, when we asked around if anyone would be intrested in an <br>
+          all-girls
+          book club in jeddah, and the response was amazing. Girls started joining the <br> telegram group which was the
+          initial
+          group for the book club until we switched to Discord.<br> </p>
+      </article>
+
+      <article style="padding-left:50px;">
+        <h3>So, What Do We Read?</h3>
+        <p>Every 25th day of every month a list of books is posted for the members to vote from. <br>
+          Book Genres That We Choose From:
+          <ol>
+            <li>Classics</li>
+            <li>Fantasy <ul>
+                <li>Young Adult Fantasy</li>
+                <li>New Adult Fantasy</li>
+              </ul>
+            </li>
+            <li>Thriller</li>
+            <li>Fiction <ul>
+                <li>Historical Fiction</li>
+                <li>Literary Fiction</li>
+              </ul>
+            </li>
+          </ol>
+        </p>
+
+        <p>Most of our book suggestions are from <a href="https://www.goodreads.com/">Goodreads</a> &
+          <a href="https://www.tiktok.com/en/">TikTok</a> Booktok Accounts!</p>
+      </article>
+
+      <article style="padding-left:50px;">
+        <h3>Between The Pages Foundation</h3>
+        <p>Our Book Club is built on the foundation of love and trust. And most importantly respect.</p>
+      </article>
+
+      <article style="padding-left:50px;">
+        <h3>Supporting the Bookclub</h3>
+        <p>Join us today! <br> By joining us you will be supporting the book club and helping us grow!</p>
+        <form action="donation.php" method="post">
+          <label><input type="radio" name="subscribe" value="1">1 Month Subscription</label><br>
+          <label><input type="radio" name="subscribe" value="3">3 Months Subscription</label><br>
+          <label><input type="radio" name="subscribe" value="6">6 Months Subscription</label><br>
+          <label><input type="radio" name="subscribe" value="12">1 Year Subscription</label><br>
+          <input type="submit" name="submit" value="Submit">
+          </form>
+      </article>
+
+    </section>
+
+    <!---ASIDE section
+containing news on the book club--->
+    <aside>
+      <details>
+        <summary>Come And Pick April's Book!</summary>
+        The Suggestions:
+        <ul>
+          <li>The Silence of the Girls</li>
+          <li>The Kite Runner</li>
+          <li>If We Were Villains</li>
+          <li>Where the Crawdads Sing</li>
+        </ul>
+      </details>
+      <br>
+      <details>
+        <summary>Now! Accepting New Members!</summary>
+        <br>All you need to do is visit our page on instagram! you can find our account
+        at the bottom of this page.
+      </details>
+      <br>
+      <details>
+        <summary>Check Out the Newest Review Written by Our Favorite Member!</summary>
+        <br>As always Raghad writes amazing reviews!! This time she wrote a review on The Secret History written
+        by Donna Tartt. An outstanding book with an outstanding
+        <a
+          href="https://www.goodreads.com/book/show/29044.The_Secret_History?ac=1&from_search=true&qid=lHQ3aZN4bS&rank=4">review.</a>
+      </details>
+
+    </aside>
+
+  </main>
+
+  <!---Footer Section
+lastly the footer containing information--->
+  <footer>
+    <h5>Copyright © 2021 Between The Pages.
+      <address>Contact Us @ <a href="mailto:shahadalqahtani212@gmail.com">E-mail!</a></address>
+      <address>Contact Us on <a href="tel:966-544545723">Moblie Phone!</a></address>
+      <i class="fa fa-instagram"> <a href="https://www.instagram.com/bookclub.btp/">Instagram</a> </i>
+    </h5>
+  </footer>
+
+</body>
+
+</html>

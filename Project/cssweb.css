@@ -1,0 +1,326 @@
+/*This applies to the whole page*/
+* {
+  font-family: serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f9f9f4;
+}
+
+/*applies to the main in body to structure it*/
+.container {
+  display: flex;
+  margin: 10px;
+  height: 510px;
+}
+
+/*structures the header*/
+header {
+  text-align: center;
+  margin: 10px;
+  border-radius: 25px;
+}
+
+/*structuring the first section
+the figure and figure caption on the side
+with animation*/
+#firstsection {
+  margin-right: 10px;
+  text-align: center;
+  border-radius: 25px;
+  background-color: #edecda;
+  flex: 1;
+  padding: 10px;
+  padding-top: 100px;
+  position: absolute;
+  margin-top: 30px;
+  top: 260px;
+  left: 1050px;
+  right: 1px;
+  margin: 15px;
+}
+
+/*structuring the second section
+the text in the left of the index page*/
+#secondsection {
+  border-radius: 25px;
+  background-color: #edecda;
+  flex: 3;
+  padding: 10px;
+  padding-top: 35px;
+  padding-bottom: 50px;
+  position: absolute;
+  left: 20px;
+  right: 400px;
+}
+
+/*structuring the third section
+background in the about us page*/
+#thirdsection {
+  text-align: center;
+  border-radius: 25px;
+  background-color: #edecda;
+  flex: 1;
+  padding: 10px;
+  padding-top: 100px;
+}
+
+/*structuring the fourth section
+ the form in the contact us page*/
+#fourthsection {
+  text-align: center;
+  border: rgb(253, 227, 232) solid;
+  background-color: #edecda;
+  display: inline-block;
+  border-radius: 25px;
+  position:absolute;
+  left: 470px;
+  margin: 4%;
+  width: 25%;
+  height: 500px;
+}
+
+/*structing boxes book1-6 in page 4
+adding animations*/
+.book1 {
+  display: inline-block;
+  border-radius: 25px;
+  position: relative;
+  left: 50px;
+  margin: 4%;
+  float: left;
+  width: 23%;
+  height: 400px;
+  background-color: #d8deb8;
+  transition: all .2s ease-in-out;
+}
+
+.book1:hover {
+  transform: scale(1.1);
+}
+
+/*structing boxes book2*/
+.book2 {
+  display: inline-block;
+  border-radius: 25px;
+  position: relative;
+  left: 50px;
+  margin: 4%;
+  float: left;
+  width: 23%;
+  height: 400px;
+  background-color: #d8deb8;
+  transition: all .2s ease-in-out;
+}
+
+.book2:hover {
+  transform: scale(1.1);
+}
+
+/*structing boxes book3*/
+.book3 {
+  display: inline-block;
+  border-radius: 25px;
+  position: relative;
+  left: 50px;
+  margin: 4%;
+  float: left;
+  width: 23%;
+  height: 400px;
+  background-color: #d8deb8;
+  transition: all .2s ease-in-out;
+}
+
+.book3:hover {
+  transform: scale(1.1);
+}
+
+/*structing boxes book4*/
+.book4 {
+  display: inline-block;
+  border-radius: 25px;
+  position: relative;
+  left: 50px;
+  margin: 4%;
+  float: left;
+  width: 23%;
+  height: 400px;
+  background-color: #d8deb8;
+  transition: all .2s ease-in-out;
+}
+
+.book4:hover {
+  transform: scale(1.1);
+}
+
+/*structing boxes book5*/
+.book5 {
+  display: inline-block;
+  border-radius: 25px;
+  position: relative;
+  left: 50px;
+  margin: 4%;
+  float: left;
+  width: 23%;
+  height: 400px;
+  background-color: #d8deb8;
+  transition: all .2s ease-in-out;
+}
+
+.book5:hover {
+  transform: scale(1.1);
+}
+
+/*structing boxes book6*/
+.book6 {
+  display: inline-block;
+  border-radius: 25px;
+  position: relative;
+  left: 50px;
+  margin: 4%;
+  float: left;
+  width: 23%;
+  height: 400px;
+  background-color: #d8deb8;
+  transition: all .2s ease-in-out;
+}
+
+.book6:hover {
+  transform: scale(1.1);
+}
+
+/*structing boxes book6*/
+.cartsec {
+  text-align: center;
+  display: inline-block;
+  border-radius: 25px;
+  position: relative;
+  left: 50px;
+  margin: 4%;
+  float: none;
+  width: 85%;
+  height: 200px;
+  background-color: #f9f9f4;
+}
+
+.cart-header {
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #333;
+}
+
+.cart-column {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  margin-right: 1.5em;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.cart-row {
+  display: flex;
+}
+
+.cart-item {
+  width: 45%;
+}
+
+.cart-price {
+  width: 20%;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.cart-quantity {
+  width: 35%;
+}
+
+.cart-item-title {
+  color: #333;
+  margin-left: .5em;
+  font-size: 1.2em;
+}
+
+.cart-item-image {
+  width: 75px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.btn-danger {
+  color: white;
+  background-color: #EB5757;
+  border: none;
+  border-radius: .3em;
+  font-weight: bold;
+}
+
+.btn-danger:hover {
+  background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+  height: 34px;
+  width: 50px;
+  border-radius: 5px;
+  border: 1px solid #56CCF2;
+  background-color: #eee;
+  color: #333;
+  padding: 0;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 25px;
+}
+
+.cart-row:last-child {
+  border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+  border: none;
+}
+
+.cart-total {
+  text-align: end;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.cart-total-title {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: black;
+  margin-right: 20px;
+}
+
+.cart-total-price {
+  color: #333;
+  font-size: 1.1em;
+}
+
+
+/*structing aside on the side of the index page*/
+aside {
+  margin-left: 10px;
+  border-radius: 25px;
+  background-color: #edecda;
+  color: #525252;
+  flex: 1;
+  padding: 10px;
+  padding-top: 15px;
+  position: absolute;
+  margin-top: 30px;
+  top: 655px;
+  left: 1050px;
+  right: 1px;
+  margin: 15px;
+}
+
+/*structing the footer*/
+footer {
+  color: black;
+  border-radius: 25px;
+  padding-left: 200px;
+}

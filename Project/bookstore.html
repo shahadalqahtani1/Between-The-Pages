@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Book Store</title>
+    <meta name="description" content="This is the description">
+    <link rel='stylesheet' href='cssweb.css'>
+    <script src="store.js"></script>
+
+    <!--Using embedded css to style this page-->
+    <style type="text/css">
+        header {
+            padding: 50px;
+            padding-bottom: 50px;
+            background: #87a982;
+        }
+
+        #button {
+            background-color: white;
+            color: black;
+            font-size: 15px;
+            padding: 10px;
+            border-radius: 12px;
+        }
+
+        button {
+            background-color: #659465;
+            color: white;
+        }
+
+        footer {
+            padding: 5px;
+            padding-bottom: 200px;
+            background-color: #f7f7e6;
+            margin: 10px;
+            padding-left: 6px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<!--The Body Starts here!!-->
+
+<body>
+    <header class="main-header">
+        <h1>Book Store</h1>
+        <h3>By the members of between the pages.</h3>
+
+        <nav class="main-nav nav">
+            <b>
+                <a href="index.html">Home</a> ||
+                <a href="joinus.html">Join Us</a>
+            </b>
+        </nav>
+    </header>
+
+    <!--there are 6 sections each section has a seperate class with img and text-->
+    <!--each element contains a special class to use in the javascript & css file-->
+    <!--book 1-->
+    <div class="shop-items">
+
+        <div class="shop-item">
+            <section class="book1">
+                <img style="position:relative; top:30px; left:25px;
+        display:inline-block; vertical-align:top;" class="shop-item-image" src="circe.jpeg" alt="circe" height="150"
+                    width="100">
+
+                <h4 style="position:relative; top:-90px; left:130px;" class="shop-item-title">
+                    Circe by Madeline Miller</h4>
+                <div class="shop-item-details">
+                    <p class="shop-item-price" style="position:relative; top:-100px; left:195px;">9sar</p>
+                        <button class="btn btn-primary shop-item-button"
+                        style="position:relative; top:-100px; left:180px;" 
+                        type="button">Buy Me!</button>
+                </div>
+                <p style="position:relative; top:-50px; left:15px;">
+                    Circe, the goddess who detested her divinity.<br>
+                    From the beginning Circe was introduced <br>
+                    to us as the outcast of her family,she was
+                    something different.</p>
+            </section>
+        </div>
+
+        <!--book 2-->
+        <div class="shop-item">
+            <section class="book2">
+                <img style="position:relative; top:30px; left:25px" class="shop-item-image" src="pp.jpeg"
+                    alt="pride and prejudice" height="150" width="100">
+
+                <h4 style="position:relative; top:-100px; left:150px;" class="shop-item-title">
+                    Pride & Prejudice <br> by Jane Austen </h4>
+
+                <div class="shop-item-details">
+                    <p class="shop-item-price" style="position:relative; top:-110px; left:195px;">5sar</p>
+                        <button class="btn btn-primary shop-item-button" 
+                        style="position:relative; top:-115px; left:180px;"
+                        type="button">Buy Me!</button>
+                </div>
+                <p style="position:relative; top:-70px; left:15px;">
+                    Jane Austens writing style is entertaining and beautiful,
+                    She Made me fall in love with all her characters.</p>
+            </section>
+        </div>
+
+
+        <!--book 3-->
+        <div class="shop-item">
+            <section class="book3">
+                <img style="position:relative; top:30px; left:25px" class="shop-item-image" src="nolonger.jpg"
+                    alt="no longer human" height="150" width="100">
+
+                <h4 style="position:relative; top:-100px; left:150px;" class="shop-item-title">
+                    No Longer Human <br>
+                    by Osamu Dazai </h4>
+
+                <div class="shop-item-details">
+                    <p class="shop-item-price" style="position:relative; top:-110px; left:195px;">9sar</p>
+                        <button class="btn btn-primary shop-item-button" 
+                        style="position:relative; top:-115px; left:180px;"
+                        type="button">Buy Me!</button>
+                </div>
+                <p style="position:relative; top:-95px; left:15px;">
+                    Oba had this habit of blaming the <br>
+                    consequences of his choices on others, <br>
+                    on Horiki, Flatfish
+                    and the women around him. <br> And that comes from
+                    the perception <br> that he did not have
+                    free will on the matter. <br> It was always going
+                    to be this way <br> unless someone helped him.<br>
+                    And this is where you stop rooting for this guy.</p>
+            </section>
+        </div>
+
+        <!--book 4-->
+        <div class="shop-item">
+            <section class="book4">
+                <img style="position:relative; top:30px; left:25px" class="shop-item-image" src="hand.jpeg"
+                    alt="The Handmaid's Tale" height="150" width="100">
+
+                <h4 style="position:relative; top:-100px; left:150px;" class="shop-item-title">
+                    The Handmaid's Tale <br>
+                    Margaret Atwood </h4>
+
+                <div class="shop-item-details">
+                    <p class="shop-item-price" style="position:relative; top:-110px; left:195px;">7sar</p>
+                        <button class="btn btn-primary shop-item-button" 
+                        style="position:relative; top:-120px; left:180px;"
+                        type="button">Buy Me!</button>
+                </div>
+                <p style="position:relative; top:-70px; left:15px;">
+                    i hated how Margaret perfectly described <br>
+                    dilemmas women go through everyday, <br>
+                    in a way that makes the reader think <br>
+                    "this is unbelievable, unacceptable" <br>
+                    even though it's not. <br>
+                    it is the reality that we live in.</p>
+            </section>
+        </div>
+
+        <!--book 5-->
+        <div class="shop-item">
+            <section class="book5">
+                <img style="position:relative; top:30px; left:25px" class="shop-item-image" src="demian.jpeg"
+                    alt="demian" height="150" width="100">
+
+                <h4 style="position:relative; top:-100px; left:130px;" class="shop-item-title">
+                    Demian By Herman Hesse</h4>
+                
+                    <div class="shop-item-details">
+                    <p class="shop-item-price" style="position:relative; top:-110px; left:195px;">6sar</p>
+                       
+                    <button class="btn btn-primary shop-item-button" 
+                        style="position:relative; top:-120px; left:180px;"
+                        type="button">Buy Me!</button>
+                </div>
+                <p style="position:relative; top:-50px; left:15px;">
+                    One of the best books i have <br>
+                    read in the past year. </p>
+            </section>
+        </div>
+
+        <!--book 6-->
+        <div class="shop-item">
+            <section class="book6">
+                <img style="position:relative; top:30px; left:25px" class="shop-item-image" src="harry.jpeg"
+                    alt="harry potter" height="150" width="100">
+
+                <h4 style="position:relative; top:-100px; left:165px;" class="shop-item-title">
+                    Harry Potter</h4>
+                <div class="shop-item-details">
+                    <p class="shop-item-price" style="position:relative; top:-110px; left:195px;">5sar</p>
+                        <button class="btn btn-primary shop-item-button" 
+                        style="position:relative; top:-120px; left:180px;"
+                        type="button">Buy Me!</button>
+                </div>
+                <p style="position:relative; top:-50px; left:15px;">
+                    "Harry you're a great wizards, you know." <br>
+                    "i'm not as good as you." <br>
+                    "Me!" said Hermione "Books! And cleverness! <br>
+                    There are more important thing friendship and bravery ..."</p>
+            </section>
+        </div>
+
+    </div>
+    <!---the big div for shop items-->
+
+    <!--Cart section starts here-->
+
+    <section class="container content-section cartsec">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">0 sar</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    </section>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' href='cssweb.css'>
+    <script src="script.js"></script>
+    <!--Using embedded css to style this page-->
+    <style type="text/css">
+    img {
+      position: absolute;
+      left: 30px;
+      top: 130px;
+      width: 600px;
+      height: 660px;
+    }
+    label {
+      color: rgb(104, 55, 63);
+    }
+    </style>
+
+    <title>Join Us</title>
+  </head>
+
+  <body>
+    <main>
+<!--Fourth section -->
+
+<img src="book-border.png" alt="book-stack.html" />
+      <section id="fourthsection">
+<!--starting the form here-->
+        <form  method="post" action="InsertForm.php" onsubmit="return Validation()">
+
+          <h4 style="position:relative; top:50px; left:9px; color: rgb(104, 55, 63);">
+          Enter your contact information <br> to join our boook club!</h4>
+
+<div class="input-group"
+style="position:relative; top:80px; left:9px;">
+    <label for="fname">First Name: </label>
+      <input type="text" id="fname" name="firstname" placeholder="Your Name.." >
+</div>
+    <br>
+    <br>
+<div class="input-group"
+style="position:relative; top:100px; left:9px;">
+    <label for="lname">Last Name: </label>
+      <input type="text" id="lname" name="lastname" placeholder="Your Last Name.." >
+</div>
+<br>
+<br>
+<div class="input-group"
+style="position:relative; top:120px; left:9px;">
+<label for="email">Enter your email:</label>
+  <input type="email" name="Email" id="email">
+</div>
+    <br>
+    <br>
+
+<div style="position:relative; top:160px; left:0px;">
+    <input type="submit" value="Submit">
+    <br/>
+    <a href="Display.php">Members info</a>
+  </div>
+
+<!--Form ends here-->
+  </form>
+      </section>
+    </main>
+<script src="script.js"> </script>
+  </body>
+
+</html>
